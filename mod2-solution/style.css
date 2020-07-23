@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align:center;
+	font-size:50px;
+}
+#leftbox,#middlebox,#rightbox{
+	background-color:#ddd;
+	width: 25%;
+	height: 200%;
+	font-size: 25px;
+	border: 2px solid black;
+	padding: 10px;
+	float: left;
+}
+#leftbox,#middlebox,#rightbox{
+	margin:60px;
+}
+#m,#i,#k{
+	max-width:80px;
+	background-color: red;
+	position: relative;
+	bottom:10px;
+	left:360px;
+	border: 2px solid black;
+}
+@media(min-width:768px) and (max-width: 991px){
+	#leftbox,#middlebox,#rightbox{
+		width:50%;
+	}
+}
+@media(min-width:750px){
+ #leftbox,#middlebox,#rightbox{
+}
